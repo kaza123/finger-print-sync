@@ -24,6 +24,6 @@ public class FingerprintSync {
             java.util.logging.Logger.getLogger(FingerprintSyncGUI.class.getName()).log(Level.SEVERE, null, ex);
         }
 
-        SystemTrayUtil.getInstance().initSystemTray(fingerprintSyncGUI);
+        SystemTrayUtil.initSystemTray(fingerprintSyncGUI);
     }
 }
